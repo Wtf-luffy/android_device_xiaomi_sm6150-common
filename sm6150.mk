@@ -422,4 +422,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # FOD & Power HALs from AOSPA Reference
 PRODUCT_PACKAGES += \
     vendor.aospa.biometrics.fingerprint.inscreen@1.0-service \
-    android.hardware.power-service-qti
+#    android.hardware.power-service-qti
