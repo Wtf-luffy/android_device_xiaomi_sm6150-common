@@ -237,11 +237,11 @@ PRODUCT_PACKAGES += \
 
 # Lineage Health
 PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
+  #  vendor.lineage.health-service.default
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay-service.xiaomi_sm6150
+    #  vendor.lineage.livedisplay-service.xiaomi_sm6150
 
 # Media
 PRODUCT_COPY_FILES += \
