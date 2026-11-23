@@ -419,7 +419,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.zram.first_wb_delay_mins=1440 \
     ro.zram.periodic_wb_delay_hours=24
 
-# FOD & Power HALs from AOSPA Reference
+# Fingerprint HAL (Using existing udfps)
 PRODUCT_PACKAGES += \
-    vendor.aospa.biometrics.fingerprint.inscreen@1.0-service \
-#    android.hardware.power-service-qti
+    vendor.xiaomi.hardware.fod@1.0-service
+
+# AIDL HALs for PenguinOS
+PRODUCT_PACKAGES += \
+    android.hardware.power-service-qti \
+    android.hardware.light-service.xiaomi \
+    android.hardware.vibrator-service.xiaomi
