@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="platform/tools/security" />
+  <remove-project name="platform/system/librustutils" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/external/cronet" />
+  <remove-project name="platform/packages/modules/Bluetooth" />
+  <remove-project name="platform/packages/modules/SdkExtensions" />
+  <remove-project name="platform/packages/services/Car" />
+  <remove-project name="platform/device/google/cuttlefish" />
+  <remove-project name="platform/system/connectivity/wificond" />
+  <remove-project name="platform/libnativehelper" />
+  <remove-project name="platform/tools/platform-compat" />
+  <remove-project name="platform/external/ot-br-posix" />
+  <remove-project name="platform/trusty/device/arm/generic-arm64" />
+</manifest>
