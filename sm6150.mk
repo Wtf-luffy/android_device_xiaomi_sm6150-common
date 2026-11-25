@@ -428,3 +428,6 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
     android.hardware.light-service.xiaomi \
     android.hardware.vibrator-service.xiaomi
+
+
+$(call inherit-product, device/xiaomi/sm6150-common/configs/ignore_modules.mk)
