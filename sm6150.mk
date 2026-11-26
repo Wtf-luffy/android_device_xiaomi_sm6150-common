@@ -431,3 +431,8 @@ PRODUCT_PACKAGES += \
 
 
 $(call inherit-product, device/xiaomi/sm6150-common/configs/ignore_modules.mk)
+
+
+# Fix for Android 17 version.py3 error
+PRODUCT_PACKAGES += \
+    update_verifier
