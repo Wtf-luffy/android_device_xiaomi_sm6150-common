@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="Project-PenguinOS/android_vendor_qcom_opensource_display" />
+  <remove-project name="Project-PenguinOS/android_vendor_qcom_opensource_commonsys_display" />
+</manifest>
