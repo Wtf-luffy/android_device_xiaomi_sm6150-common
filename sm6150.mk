@@ -425,7 +425,7 @@ PRODUCT_PACKAGES += \
 
 # AIDL HALs for PenguinOS
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-qti \
+    # android.hardware.power-service-qti \
     android.hardware.light-service.xiaomi \
     android.hardware.vibrator-service.xiaomi
 
